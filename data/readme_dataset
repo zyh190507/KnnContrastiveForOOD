@@ -1,0 +1,12 @@
+The datasets used in all experiments are derived from previously published scientific papers.
+In order to prevent infringement, we provide the source from which we obtain the datasets.
+
+For banking and stackoverflow:
+you can get them from:
+https://github.com/thuiar/Adaptive-Decision-Boundary/tree/main/data
+
+
+For clinc_full and clinc_small:
+you can get them from:
+https://github.com/clinc/oos-eval/tree/master/data
+

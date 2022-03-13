@@ -23,6 +23,6 @@
   "temperature": 0.5 ,
   "auto_th": 25 ,
   "fitlog_dir": "./logs",
-  "seed": 62,
+  "seed": 42,
   "known_ratio": 1.0
 }

@@ -1,0 +1,1 @@
+{"hyper": {"seed": 62, "warmup_steps": 0, "contrastive_rate_in_inference": 0.1, "contrastive_rate_in_training": 0.1, "end_k": 1, "m": 0.999, "negative_num": 96, "positive_num": 3, "queue_size": 6500, "top_k": 25}}
