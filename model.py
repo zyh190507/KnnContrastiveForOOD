@@ -253,7 +253,8 @@ class ContrastiveMoCoKnnBert(nn.Module):
         self.update_num = config.positive_num # 3
 
 
-        # update 
+        # optional and delete can improve the performance indicated 
+        # by some experiment
         params_to_train = ["layer." + str(i) for i in range(0,12)]
         for name, param in self.encoder_q.named_parameters():
             param.requires_grad_(False)
