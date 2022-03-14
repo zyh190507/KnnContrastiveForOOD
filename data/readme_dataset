@@ -10,3 +10,6 @@ For clinc_full and clinc_small:
 you can get them from:
 https://github.com/clinc/oos-eval/tree/master/data
 
+Note:
+1.if you get the data yourself, the directory name of the clinc data must be 'clinc_full' or 'clinc_small';
+2.In order to prevent infrigement, you can contact me to delete or obtain the data and remember to indicate the source when using it.
