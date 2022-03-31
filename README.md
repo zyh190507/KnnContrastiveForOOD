@@ -13,5 +13,5 @@ Run the experiments (for example banking_25):
 [python run_main.py json/banking_25.json]
 
 ### Fix:
-ATTENTION!! Due to the wrong filling, the F1-IND of SCL+LOF is **74.12**(**OUR is 76.44**), not 79.28 in the paper.
+**ATTENTION!!** Due to the wrong filling, the F1-IND of SCL+LOF is **74.12**(**OUR is 76.44**), not 79.28 in the paper.
 
