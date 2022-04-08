@@ -8,7 +8,7 @@
 [pip install -r requirements.txt]
 
 ## Usage:
-Run the experiments (for example banking_25):
+### Run the experiments (for example banking_25):
 
 [python run_main.py json/banking_25.json]
 
