@@ -13,4 +13,4 @@
 [python run_main.py json/banking_25.json]
 
 ## Fix:
-**ATTENTION!! Incorrect filling due to carelessness**, In the BANKING 25% of Table1 in the paper, the actual F1-IND result of SCL+LOF is **74.12**(**less than OUR 76.44**), not 79.28 in the paper. **Sorry for this carelessness**.
+**Incorrect filling due to carelessness**, In the BANKING 25% of Table1 in the paper, the actual F1-IND result of SCL+LOF is **74.12**(**less than OUR 76.44**), not 79.28 in the paper. **Sorry for this carelessness**.
