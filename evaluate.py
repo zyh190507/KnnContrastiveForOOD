@@ -620,7 +620,7 @@ class Evaluation:
 
                 # if the dateset is clinc_full or clinc_small, the threashold of euclidean-based
                 # should be different for cosine-based
-                if "small" in self.args.data and "euclidean" in setting:
+                if "clinc" in self.args.data and "euclidean" in setting:
                     best_item -= -2.1
                 is_inlier = np.ones(len(feature_test), dtype=int)
                 # y_pred_lof = lof.predict(feature_test)

@@ -15,14 +15,14 @@
   "per_gpu_eval_batch_size": 16,
   "ind_pre_epoches": 30 ,
   "supcont_pre_epoches": 50 ,
-  "top_k": 25 ,
+  "top_k": 15 ,
   "end_k": 1 ,
-  "queue_size": 7500 ,
+  "queue_size": 6500 ,
   "learning_rate": 1e-5 ,
   "norm_coef": 0.1 ,
   "temperature": 1.0 ,
   "auto_th": 25 ,
   "fitlog_dir": "./logs",
-  "seed": 42,
+  "seed": 62,
   "known_ratio": 1.0
 }
