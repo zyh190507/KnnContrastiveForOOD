@@ -12,5 +12,7 @@
 
 [python run_main.py json/banking_25.json]
 
-[Results stored in model_output]
+## Results:
+
+[Results stored in model_output, e.g. banaking_0.25.csv]
 
