@@ -494,10 +494,7 @@ class SimpleTrainer:
         model.to(self.args.device)
 
         ################################################################################################
-        # supervised contrastive learning
-        # TEST
         train_dataloader = self.get_train_dataloader()
-        #train_dataloader = self.get_eval_dataloader()
         valid_loader = self.get_eval_dataloader()
         num_update_steps_per_epoch = len(train_dataloader) // self.args.gradient_accumulation_steps
         max_steps = math.ceil(self.args.supcont_pre_epoches * num_update_steps_per_epoch)
