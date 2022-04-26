@@ -466,7 +466,7 @@ class SimpleTrainer:
 
     def valution_cal(self, model, val_dataloader) -> float:
         #Just test whether the model.eval() in selecting model has an impact on the results,
-        #and the opening model.eval() in selecting models will be better in most case.
+        #and the opening model.eval() in selecting models will be better in some cases.
         #model.eval()
         target =[]
         predict = []
