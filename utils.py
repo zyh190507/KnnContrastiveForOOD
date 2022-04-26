@@ -18,6 +18,7 @@ SEED = 123
 #tf.random.set_seed(SEED)
 
 def get_score(cm, mode='test'):
+    # metric is same as SCL' metric
     fs = []
     ps = []
     rs = []
