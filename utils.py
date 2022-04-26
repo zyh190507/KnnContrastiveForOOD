@@ -45,10 +45,6 @@ def get_score(cm, mode='test'):
     acc = (sum(correct) / sum(total) * 100).round(2)
     acc_in = (sum(correct[:-1]) / sum(total[:-1]) * 100).round(2)
     acc_ood = (correct[-1] / total[-1] * 100).round(2)
-    if mode == 'test':
-        print(f"Overall(macro): , f:{f}, acc:{acc}")
-        print(f"Seen(macro): , f:{f_seen}, acc:{acc_in}, p:{p_seen}, r:{r_seen}")
-        print(f"=====> Unseen(Experiment) <=====: , f:{f_unseen}, acc:{acc_ood}, p:{p_unseen}, r:{r_unseen}")
 
     return f, acc, f_seen, acc_in, p_seen, r_seen, f_unseen, acc_ood, p_unseen, r_unseen
 
