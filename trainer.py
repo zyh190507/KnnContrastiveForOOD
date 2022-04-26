@@ -537,7 +537,7 @@ class SimpleTrainer:
             print('Epoch: [{0}]: Loss {loss:.4f}'.format(epoch, loss=tr_loss / global_step))
             cl_loss_name = 'sup_Clearning_loss'
             fitlog.add_loss(tr_loss / global_step, name=cl_loss_name, step=epoch)
-            ### Get model performing best #####
+            ### Get model performing in valid IND #####
             f1 = self.valution_cal(model, valid_loader)
             if f1 > best_f1:
                 #torch.save(model, model_file_path)
