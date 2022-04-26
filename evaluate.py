@@ -432,7 +432,7 @@ class Evaluation:
         torch.no_grad()
         model.eval()
 
-        # finetune in valid
+        # test in valid
         for step, inputs in enumerate(valid_loader):
             for k, v in inputs.items():
                 if isinstance(v, torch.Tensor):
